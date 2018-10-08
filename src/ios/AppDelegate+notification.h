@@ -18,5 +18,6 @@
 
 @property (nonatomic, retain) NSDictionary  *launchNotification;
 @property (nonatomic, retain) NSNumber  *coldstart;
+@property (nonatomic, retain) id<UNUserNotificationCenterDelegate> clobberedDelegate;
 
 @end
